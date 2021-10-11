@@ -1,4 +1,4 @@
-##Problem:##
+### Problem: ###
 
 you are given an array of k ordered lists (of unknown lengths), merge them into one sorted list.
 
@@ -6,5 +6,5 @@ you are given an array of k ordered lists (of unknown lengths), merge them into 
 
 
 -----------
-###SPOILER:###
+#### SPOILER: ####
 Time complexity: O(n log k)
