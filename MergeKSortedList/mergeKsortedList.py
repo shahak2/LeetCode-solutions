@@ -37,27 +37,18 @@ def mergeKLists(lists):
 
     return sortedList
 
-mergeKLists([[]])
-mergeKLists([])
-mergeKLists([[]])
-
 def test():
     l = ListNode(5, None)
     l1 = ListNode(1, l)
     l2 = ListNode(0, l1)
-    
-    
     l4 = ListNode(8, None)
     l5 = ListNode(4, l4)
     l6 = ListNode(2, l5)
     l7 = ListNode(-1, l6)
-
     lst = [l7,l2]
-    
     mergedLst = mergeKLists(lst)
     prnt_lst(mergedLst)
-
-
+    
 test()
 
     
